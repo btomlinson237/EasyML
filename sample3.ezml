@@ -1,0 +1,6 @@
+DATAPATH userPath = 'housing.csv'
+DATASET userDataNum = LOAD userPath
+CLEAN userDataNum
+MODEL userModelNum = PREDICT_NUM(userDataNum, COLUMN I)
+DOWNLOAD DATASET userDataNum
+DOWNLOAD MODEL userModelNum

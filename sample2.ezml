@@ -1,0 +1,6 @@
+DATAPATH userPath = 'Titanic.csv'
+DATASET userDataCat = LOAD userPath
+CLEAN userDataCat
+MODEL userModelCat = PREDICT_CAT(userDataCat, COLUMN J)
+DOWNLOAD DATASET userDataCat
+DOWNLOAD MODEL userModelCat

@@ -1,0 +1,4 @@
+DATAPATH userPath = 'running.xlsx'
+DATASET userData = LOAD userPath
+CLEAN userData
+DOWNLOAD DATASET userData

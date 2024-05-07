@@ -1,0 +1,11 @@
+exported/*
+*.csv
+*.xlsx
+.vscode/
+.venv/
+old/
+trainingData/
+*.csv
+old/
+
+
