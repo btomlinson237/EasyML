@@ -7,5 +7,6 @@ old/
 trainingData/
 *.csv
 old/
+.DS_store
 
 
